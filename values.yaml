@@ -1,0 +1,14 @@
+public.ecr.aws/b4u1h2a4/mernimage-webapp:v1
+
+# Default values for webapp.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 10
+
+image:
+  repository: public.ecr.aws/b4u1h2a4/mernimage-webapp:v1
+  pullPolicy: Always
+
+application:
+  name: webapp
